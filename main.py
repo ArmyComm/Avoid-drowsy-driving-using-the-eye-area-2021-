@@ -35,7 +35,7 @@ def crop_eye(img, eye_points):
 # main
 cap = cv2.VideoCapture(0)
 # cap = cv2.VideoCapture('video2.mp4')
-# cap = cv2.VideoCapture('C:/Users/MinCheol/Desktop/2021_graduation_project/Code/dataset/2-1.avi')
+# cap = cv2.VideoCapture('C:/-/dataset/2-1.avi')
 
 while cap.isOpened():
     ret, img_ori = cap.read()
